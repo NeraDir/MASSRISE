@@ -1,0 +1,21 @@
+{
+    "name": "EnemiesAssemblyes",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d00e60039b7ee57459f6f7d271cb0d41",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:56850a56211919a42a7a965598254c9d",
+        "GUID:59e9f3b0ad686b94daf2276722ad97b1",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:656c2c43d3cfe4855bd40e058874b0be"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

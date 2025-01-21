@@ -1,0 +1,16 @@
+{
+    "name": "SkillsAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f87abab7a56fdc24fbc06a19c9a8c376"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
