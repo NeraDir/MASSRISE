@@ -36,8 +36,6 @@
     "com.unity.modules.unitywebrequesttexture": "1.0.0",
     "com.unity.modules.unitywebrequestwww": "1.0.0",
     "com.unity.modules.video": "1.0.0",
-    "com.unity.modules.wind": "1.0.0",
-    "com.leopotam.ecs": "https://github.com/voody2506/ecs.git",
-    "com.voody.unileo": "https://github.com/voody2506/UniLeo.git"
+    "com.unity.modules.wind": "1.0.0"
   }
 }

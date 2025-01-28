@@ -13,13 +13,16 @@ public class HealthBar : MonoBehaviour
 
     private float _fillingSpeed = 0.25f;
 
-    private ObjectFollowComponent _followComponent;
+    private FollowerComponent _followComponent;
+
+    private Vector3 _barOffset = new Vector3(0, 2.48f, 0.58f);
+    private float _barSpeed = 10;
 
     public void Init()
     {
         _images = GetComponentsInChildren<Image>().ToList();
         _fillImage = _images[_images.Count - 1];
-        _followComponent = gameObject.AddComponent<ObjectFollowComponent>();
+        _followComponent = gameObject.AddComponent<FollowerComponent>();
     }
 
     public void Show()
@@ -38,9 +41,9 @@ public class HealthBar : MonoBehaviour
         }
     }
 
-    public void SetFollow(Transform target,Vector3 offset, float speed)
+    public void SetFollow(Transform target)
     {
-        _followComponent.SetData(target,offset,speed);
+        _followComponent.SetData(target, _barOffset, _barSpeed);
     }
 
     public void ChangeValue(float value, float maxValue)
