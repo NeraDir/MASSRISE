@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435930169b4174b4cbc4b65ccd99470f, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  gameSetting:
+    enemiePrefabs:
+    - {fileID: 4732168625030025294, guid: f8844add2d9716b489468d657f8ae462, type: 3}
+    spawnRadius: 15
+    safeRadius: 14
+    spawnRate: 0.01
+    enemiesMaxCount: 350
+    moveUpdateRate: 0.1
+    followUpdateRate: 0.01
+    enemySpawnSystem: {fileID: 7355524573434942085, guid: ce1f217db26490642ad52470c2d8a7f3, type: 3}
+    enemyMovementSystem: {fileID: 601102600086882087, guid: 5e115045e3d89b548a3e1dc306e1f933, type: 3}
+    objectsFollowSystem: {fileID: 197923054467828163, guid: ac34b672cb601c3499598894fa4f0628, type: 3}
+    objectPooler: {fileID: 1052670836784623999, guid: ecfc9da634f163041a0cec277981f267, type: 3}
+    camera: {fileID: 7242069418474159603, guid: 032af6e8e3a4f6d4db1490a59d298e06, type: 3}
+    sun: {fileID: 7578311845043101219, guid: 3599700bcd2c072419d4af363a3a11fd, type: 3}
+    userInput: {fileID: 8940243541107760013, guid: 4c515dfc2676e704599c752640bcb0ab, type: 3}
+    cameraOffset: {x: 0, y: 15, z: -3.9}
+    speed: 7
+  enemiesSetting:
+    beginHealth: 1
+    damage: 0
+    damageMaterial: {fileID: 2100000, guid: d197d0bc3ac300847bea9e0bc7f226c2, type: 2}
+  playerSetting:
+    playerPrefab: {fileID: 2674767031902806183, guid: 73ac9d3767e2731488020ebe00f73c5f, type: 3}
+    pickUpPrefab: {fileID: 5720018538436931696, guid: 819dc1e1129b3f048a8168aac42fd04c, type: 3}
+    beginhealth: 6
+    spawnPoint: {x: 0, y: 0, z: 0}
+    damageMaterial: {fileID: 2100000, guid: d197d0bc3ac300847bea9e0bc7f226c2, type: 2}
